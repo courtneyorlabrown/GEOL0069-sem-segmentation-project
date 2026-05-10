@@ -1,3 +1,4 @@
-image_id,magnification,raw_file,weka_mask,porosity_weka,split,notes
-13064_05_17B_1000X,1000,,,,,
-13064_05_17C_2000X,2000,,,,,
+image_id,magnification,raw_file,cropped_file,weka_mask,probability_map,porosity_weka,split,notes
+13064_05_17B_1000X,1000,,,,,,,Weka porosity measured
+13064_05_17C_2000X,2000,,,,,,,Weka porosity measured
+
