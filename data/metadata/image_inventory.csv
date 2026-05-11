@@ -1,5 +1,5 @@
 image_id,actual_magnification,raw_file,cropped_file,weka_mask,probability_map,porosity_weka,split,notes
-13064_05_17A_400X-8-83,400,13064_05_17A_400X-8-83.JPG,,,,,,selected
+13064_05_17A_400X-8-83,400,13064_05_17A_400X-8-83.JPG,,,,1,,selected
 13074_00_18A_400X-9-10,400,13074_00_18A_400X-9-10.JPG,,,,,,selected
 13075_10_18A_400X-9-11,400,13075_10_18A_400X-9-11.JPG,,,,,,selected
 13064_05_17B_1000X-8-83,1000,13064_05_17B_1000X-8-83.JPG,,,,,,selected
