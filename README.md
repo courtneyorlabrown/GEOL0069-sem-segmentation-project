@@ -140,7 +140,7 @@ The figure below shows how predicted porosity and F1 score vary for each held-ou
 ### Qualitative comparison
 Visual comparison of the segmentation masks shows the same overall pattern: Otsu tends to classify too much dark material as pore space, whereas the Random Forest and CNN produce masks that are more similar to the Weka-derived reference.
 
-![Qualitative comparison examples](figures/comparison_low_high_examples.png)
+![Qualitative comparison examples](figures/comparison_full_rollout_page_1.png)
 
 > **Note:** If these figures do not display in GitHub, ensure that the corresponding `.png` files are present in the `figures/` folder using the exact filenames above.
 
