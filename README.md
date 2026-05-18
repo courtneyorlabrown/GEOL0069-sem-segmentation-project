@@ -142,8 +142,6 @@ Visual comparison of the segmentation masks shows the same overall pattern: Otsu
 
 ![Qualitative comparison examples](figures/comparison_full_rollout_page_1.png)
 
-> **Note:** If these figures do not display in GitHub, ensure that the corresponding `.png` files are present in the `figures/` folder using the exact filenames above.
-
 ---
 
 ## Notebook guide
