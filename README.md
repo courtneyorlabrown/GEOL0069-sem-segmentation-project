@@ -195,3 +195,6 @@ GEOL0069-sem-segmentation-project/
 ├── requirements.txt
 └── README.md
 
+Author:
+Courtney Orla Brown
+GEOL0069 AI4EO final project
