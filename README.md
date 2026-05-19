@@ -114,7 +114,6 @@ Visual comparison of the segmentation masks shows the same overall pattern: Otsu
 ```text
 GEOL0069-sem-segmentation-project/
 ├── README.md
-├── requirements.txt
 ├── data/
 │   ├── cropped/
 │   ├── masks_weka/
@@ -187,6 +186,7 @@ This project was developed in Python using Jupyter/Colab notebooks. Main package
 - `tensorflow`
 - `opencv-python`
 - `jupyter`
+- `joblib`
 
 Install dependencies with:
 
