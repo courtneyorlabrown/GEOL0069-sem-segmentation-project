@@ -108,26 +108,27 @@ Visual comparison of the segmentation masks shows the same overall pattern: Otsu
 ![Qualitative comparison examples](figures/comparison_full_rollout_page_1.png)
 
 ---
-
 ## Repository Structure
 
 ```text
 GEOL0069-sem-segmentation-project/
-├── README.md
-├── data/
-│   ├── cropped/
-│   ├── masks_weka/
-│   └── metadata/
-├── figures/
-├── notebooks/
+├── .gitignore                # Git ignore rules
+├── README.md                 # Project overview and documentation
+├── data/                     # Input data and reference labels
+│   ├── cropped/              # Cropped SEM/BSE images
+│   ├── masks_weka/           # Weka reference pore masks
+│   └── metadata/             # Dataset inventory and metadata
+├── figures/                  # Figures used in the README and project outputs
+├── notebooks/                # Main project workflow notebooks
 │   ├── 01_data_loading_and_inventory.ipynb
 │   ├── 02_otsu_baseline.ipynb
 │   ├── 03_random_forest.ipynb
 │   ├── 04_cnn_patch_classifier.ipynb
 │   └── 05_evaluation_and_comparison.ipynb
-├── predictions/
-├── tables/
-
+├── results/                  # Evaluation outputs, summary tables, and saved results
+└── src/                      # Supporting Python scripts
+```
+---
 ## Notebook Guide
 
 ### `01_data_loading_and_inventory.ipynb`
