@@ -6,3 +6,4 @@ This folder will contain figures for the final assignment, including:
 - AI workflow diagram
 - example segmentation comparisons
 - porosity comparison plots
+- Weka segmentation workflow
