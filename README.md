@@ -34,6 +34,8 @@ According to the ImageJ documentation, Trainable Weka Segmentation can use a ran
 
 ![Trainable Weka Segmentation workflow](figures/trainable_weka_segmentation_workflow.png)
 
+*Figure: Overview of the Trainable Weka Segmentation workflow, showing feature extraction, manual labelling, classifier training, and final segmentation.*
+
 *Figure adapted from the Trainable Weka Segmentation workflow described by Arganda-Carreras et al. (2017).*  
 Source: https://academic.oup.com/bioinformatics/article/33/15/2424/3092362
 
