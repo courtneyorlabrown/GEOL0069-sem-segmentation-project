@@ -32,9 +32,7 @@ Trainable Weka Segmentation was used to generate the reference pore masks for th
 
 According to the ImageJ documentation, Trainable Weka Segmentation can use a range of features sensitive to intensity, texture, edges, and local structure, and its default classifier is **FastRandomForest**. This makes it a strong reference workflow for complex microscopy segmentation problems where pore boundaries are not easily separated by a single threshold. [ImageJ.net](https://imagej.net/Trainable_Weka_Segmentation)
 
-![Trainable Weka Segmentation workflow](figures/trainable_weka_segmentation_workflow.png)
-
-*Figure: Overview of the Trainable Weka Segmentation workflow, showing feature extraction, manual labelling, classifier training, and final segmentation.*
+![Trainable Weka Segmentation workflow](figures/trainable_weka_ segmentation_workflow.jpeg)
 
 *Figure adapted from the Trainable Weka Segmentation workflow described by Arganda-Carreras et al. (2017).*  
 Source: https://academic.oup.com/bioinformatics/article/33/15/2424/3092362
