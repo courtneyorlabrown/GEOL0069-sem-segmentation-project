@@ -202,6 +202,15 @@ pip install -r requirements.txt
 4. Review the final comparison notebook for the full evaluation and discussion.
 ```
 ---
+## Environmental Assessment
+
+This project has both potential environmental benefits and environmental costs. On the positive side, improved pore segmentation and porosity estimation can support more efficient and reproducible analysis of shale microstructures, reducing reliance on fully manual interpretation and helping image-based workflows become faster and more consistent.
+
+However, the project also has a computational footprint. Machine learning model development requires electricity for data processing, model training, repeated experimentation, and storage of outputs. This is especially relevant for deep learning models such as the CNN, which are typically more computationally intensive than simpler baselines such as Otsu thresholding or Random Forest. Broader discussions of AI sustainability note that machine learning and data-centre computation have environmental costs through energy use and associated emissions. [MIT News](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117) [Frontiers](https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2024.1507030/full)
+
+In this project, the environmental impact was limited in several ways. The dataset was small, the CNN architecture was intentionally simple, training was limited to a modest number of epochs, and early stopping was used to avoid unnecessary computation. The inclusion of Otsu thresholding and Random Forest as lower-cost comparison methods also provided a more computationally efficient benchmark against which the CNN could be assessed.
+
+Overall, the project illustrates an important trade-off: AI methods can improve segmentation quality and reproducibility, but their computational cost should be justified by a meaningful improvement in results. In this case, the Random Forest provided a strong balance between performance and complexity, suggesting that more computationally expensive methods are not always environmentally or scientifically justified for small datasets.
 
 ## References
 
