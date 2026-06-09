@@ -4,7 +4,7 @@ This folder will contain figures for the final assignment, including:
 
 - SEM imaging workflow figure
 - AI workflow diagram
-- example segmentation comparisons
-- porosity comparison plots
+- Example segmentation comparisons
+- Porosity comparison plots
 - Weka segmentation workflow
-- Project workflow infographic
+- SEM/BSE Project workflow infographic
