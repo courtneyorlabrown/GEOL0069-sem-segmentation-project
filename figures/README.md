@@ -7,3 +7,4 @@ This folder will contain figures for the final assignment, including:
 - example segmentation comparisons
 - porosity comparison plots
 - Weka segmentation workflow
+- Project workflow infographic
