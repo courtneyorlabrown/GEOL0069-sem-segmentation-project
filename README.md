@@ -163,6 +163,10 @@ The methods are compared using both **segmentation metrics** and **derived poros
 Together, these metrics allow the project to assess not only whether a method produces visually plausible masks, but also whether it gives **realistic quantitative porosity estimates**.
 ---
 
+## Project Workflow Infographic
+
+![SEM/BSE project workflow infographic](figures/SEM_BSE_project_workflow_infographic.png)
+
 ## Discussion
 
 The results show that **simple thresholding is not sufficient** for this dataset. Otsu thresholding consistently overestimated porosity, indicating that grayscale intensity alone was not enough to isolate pore space reliably in these SEM/BSE images. This is consistent with published work showing that threshold-based pore segmentation can be highly sensitive to gray-value cutoffs and can produce large variability in pore structural measurements.
