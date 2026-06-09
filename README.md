@@ -163,7 +163,7 @@ The methods are compared using both **segmentation metrics** and **derived poros
 Together, these metrics allow the project to assess not only whether a method produces visually plausible masks, but also whether it gives **realistic quantitative porosity estimates**.
 ---
 
-## Project Workflow Infographic
+# Project Workflow Infographic
 
 ![SEM/BSE project workflow infographic](figures/SEM_BSE_project_workflow_infographic.png)
 
